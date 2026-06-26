@@ -1,0 +1,690 @@
+2026-06-25 23:41:35,299 - INFO - fraud_app - Uploaded dataset contains 10 rows and 8 columns.
+2026-06-25 23:41:35,299 - DEBUG - fraud_app - Creating database engine.
+2026-06-25 23:41:35,677 - DEBUG - fraud_app - Initializing the PostgreSQL fraud transaction table.
+2026-06-25 23:52:31,838 - INFO - fraud_app - Uploaded dataset contains 10 rows and 8 columns.
+2026-06-25 23:52:31,838 - DEBUG - fraud_app - Creating database engine.
+2026-06-25 23:52:31,962 - DEBUG - fraud_app - Initializing the PostgreSQL fraud transaction table.
+2026-06-25 23:53:49,763 - INFO - fraud_app - Uploaded dataset contains 10 rows and 8 columns.
+2026-06-25 23:53:49,764 - DEBUG - fraud_app - Creating database engine.
+2026-06-25 23:53:49,883 - DEBUG - fraud_app - Initializing the PostgreSQL fraud transaction table.
+2026-06-25 23:58:12,704 - INFO - fraud_app - Uploaded dataset contains 10 rows and 8 columns.
+2026-06-25 23:58:12,704 - DEBUG - fraud_app - Creating database engine.
+2026-06-25 23:58:12,813 - DEBUG - fraud_app - Initializing the PostgreSQL fraud transaction table.
+2026-06-25 23:58:12,941 - INFO - fraud_app - Database table ensured: bank_transactions
+2026-06-25 23:58:12,942 - INFO - fraud_app - Preparing raw dataset for immediate PostgreSQL persistence.
+2026-06-25 23:58:12,943 - DEBUG - fraud_app - Renaming raw dataset columns to match PostgreSQL schema.
+2026-06-25 23:58:12,953 - WARNING - fraud_app - Uploaded dataset is missing expected columns: ['credit_card_number', 'customer_city', 'customer_job', 'fraud_result', 'merchant_name', 'trans_num', 'transaction_amount', 'transaction_category', 'transaction_datetime']
+2026-06-26 00:03:06,651 - INFO - fraud_app - Uploaded dataset contains 10 rows and 8 columns.
+2026-06-26 00:03:06,651 - DEBUG - fraud_app - Creating database engine.
+2026-06-26 00:03:06,653 - DEBUG - fraud_app - Initializing the PostgreSQL fraud transaction table.
+2026-06-26 00:03:06,736 - INFO - fraud_app - Database table ensured: bank_transactions
+2026-06-26 00:03:06,736 - INFO - fraud_app - Preparing raw dataset for immediate PostgreSQL persistence.
+2026-06-26 00:03:06,737 - DEBUG - fraud_app - Renaming raw dataset columns to match PostgreSQL schema.
+2026-06-26 00:03:06,739 - WARNING - fraud_app - Uploaded dataset is missing expected columns: ['fraud_result', 'trans_num']
+2026-06-26 00:04:32,121 - INFO - fraud_app - Uploaded dataset contains 10 rows and 8 columns.
+2026-06-26 00:04:32,122 - DEBUG - fraud_app - Creating database engine.
+2026-06-26 00:04:32,123 - DEBUG - fraud_app - Initializing the PostgreSQL fraud transaction table.
+2026-06-26 00:04:32,216 - INFO - fraud_app - Database table ensured: bank_transactions
+2026-06-26 00:04:32,216 - INFO - fraud_app - Preparing raw dataset for immediate PostgreSQL persistence.
+2026-06-26 00:04:32,217 - DEBUG - fraud_app - Renaming raw dataset columns to match PostgreSQL schema.
+2026-06-26 00:04:32,220 - WARNING - fraud_app - Uploaded dataset is missing expected columns: ['fraud_result']
+2026-06-26 00:04:32,239 - INFO - fraud_app - Prepared raw dataset with 10 records after deduplication.
+2026-06-26 00:10:09,165 - INFO - fraud_app - Uploaded dataset contains 10 rows and 8 columns.
+2026-06-26 00:10:09,166 - DEBUG - fraud_app - Creating database engine.
+2026-06-26 00:10:09,258 - DEBUG - fraud_app - Initializing the PostgreSQL fraud transaction table.
+2026-06-26 00:10:09,355 - INFO - fraud_app - Database table ensured: bank_transactions
+2026-06-26 00:10:09,356 - INFO - fraud_app - Preparing raw dataset for immediate PostgreSQL persistence.
+2026-06-26 00:10:09,357 - DEBUG - fraud_app - Renaming raw dataset columns to match PostgreSQL schema.
+2026-06-26 00:10:09,360 - WARNING - fraud_app - Uploaded dataset is missing expected columns: ['fraud_result']
+2026-06-26 00:10:09,373 - INFO - fraud_app - Prepared raw dataset with 10 records after deduplication.
+2026-06-26 00:10:09,383 - DEBUG - fraud_app - Fetched 0 existing transaction keys.
+2026-06-26 00:10:09,464 - INFO - fraud_app - Immediately inserted 10 new raw rows to the DB.
+2026-06-26 00:10:09,476 - INFO - fraud_app - Creating a dedicated feature engineering copy for prediction.
+2026-06-26 00:10:09,488 - DEBUG - fraud_app - Mapping frequency for merchant_name with 10 unique values.
+2026-06-26 00:10:09,490 - DEBUG - fraud_app - Mapping frequency for customer_job with 10 unique values.
+2026-06-26 00:10:09,493 - DEBUG - fraud_app - Mapping frequency for customer_city with 10 unique values.
+2026-06-26 00:10:09,497 - DEBUG - fraud_app - Mapped transaction_category frequency.
+2026-06-26 00:10:09,502 - INFO - fraud_app - Loading pre-trained model from xgboost_model.pkl.
+2026-06-26 00:10:13,587 - INFO - fraud_app - Model loaded successfully.
+2026-06-26 00:10:13,587 - DEBUG - fraud_app - Calculating fraud probability values.
+2026-06-26 00:13:27,288 - INFO - fraud_app - Uploaded dataset contains 10 rows and 8 columns.
+2026-06-26 00:13:27,288 - DEBUG - fraud_app - Creating database engine.
+2026-06-26 00:13:27,441 - DEBUG - fraud_app - Initializing the PostgreSQL fraud transaction table.
+2026-06-26 00:13:27,575 - INFO - fraud_app - Database table ensured: bank_transactions
+2026-06-26 00:13:27,576 - INFO - fraud_app - Preparing raw dataset for immediate PostgreSQL persistence.
+2026-06-26 00:13:27,576 - DEBUG - fraud_app - Renaming raw dataset columns to match PostgreSQL schema.
+2026-06-26 00:13:27,582 - WARNING - fraud_app - Uploaded dataset is missing expected columns: ['fraud_result']
+2026-06-26 00:13:27,597 - INFO - fraud_app - Prepared raw dataset with 10 records after deduplication.
+2026-06-26 00:13:27,605 - DEBUG - fraud_app - Fetched 10 existing transaction keys.
+2026-06-26 00:13:27,619 - INFO - fraud_app - No new raw rows to insert; all transaction_id values already exist in DB.
+2026-06-26 00:13:27,628 - INFO - fraud_app - Creating a dedicated feature engineering copy for prediction.
+2026-06-26 00:13:27,635 - DEBUG - fraud_app - Mapping frequency for merchant_name with 10 unique values.
+2026-06-26 00:13:27,638 - DEBUG - fraud_app - Mapping frequency for customer_job with 10 unique values.
+2026-06-26 00:13:27,640 - DEBUG - fraud_app - Mapping frequency for customer_city with 10 unique values.
+2026-06-26 00:13:27,644 - DEBUG - fraud_app - Mapped transaction_category frequency.
+2026-06-26 00:13:27,648 - INFO - fraud_app - Loading pre-trained model from xgboost_model.pkl.
+2026-06-26 00:13:29,733 - INFO - fraud_app - Model loaded successfully.
+2026-06-26 00:13:29,733 - DEBUG - fraud_app - Calculating fraud probability values.
+2026-06-26 00:17:34,929 - INFO - fraud_app - Uploaded dataset contains 10 rows and 8 columns.
+2026-06-26 00:17:34,930 - DEBUG - fraud_app - Creating database engine.
+2026-06-26 00:17:34,931 - DEBUG - fraud_app - Initializing the PostgreSQL fraud transaction table.
+2026-06-26 00:17:35,023 - INFO - fraud_app - Database table ensured: bank_transactions
+2026-06-26 00:17:35,024 - INFO - fraud_app - Preparing raw dataset for immediate PostgreSQL persistence.
+2026-06-26 00:17:35,025 - DEBUG - fraud_app - Renaming raw dataset columns to match PostgreSQL schema.
+2026-06-26 00:17:35,029 - WARNING - fraud_app - Uploaded dataset is missing expected columns: ['fraud_result']
+2026-06-26 00:17:35,040 - INFO - fraud_app - Prepared raw dataset with 10 records after deduplication.
+2026-06-26 00:17:35,048 - DEBUG - fraud_app - Fetched 10 existing transaction keys.
+2026-06-26 00:17:35,051 - INFO - fraud_app - No new raw rows to insert; all transaction_id values already exist in DB.
+2026-06-26 00:17:35,060 - INFO - fraud_app - Creating a dedicated feature engineering copy for prediction.
+2026-06-26 00:17:35,069 - DEBUG - fraud_app - Mapping frequency for merchant_name with 10 unique values.
+2026-06-26 00:17:35,071 - DEBUG - fraud_app - Mapping frequency for customer_job with 10 unique values.
+2026-06-26 00:17:35,073 - DEBUG - fraud_app - Mapping frequency for customer_city with 10 unique values.
+2026-06-26 00:17:35,076 - DEBUG - fraud_app - Mapped transaction_category frequency.
+2026-06-26 00:17:35,080 - INFO - fraud_app - Loading pre-trained model from xgboost_model.pkl.
+2026-06-26 00:17:35,107 - INFO - fraud_app - Model loaded successfully.
+2026-06-26 00:17:35,108 - DEBUG - fraud_app - Calculating fraud probability values.
+2026-06-26 00:17:35,133 - INFO - fraud_app - Predicted 0 fraud records out of 10.
+2026-06-26 00:26:48,880 - INFO - fraud_app - Uploaded dataset contains 10 rows and 8 columns.
+2026-06-26 00:26:48,881 - DEBUG - fraud_app - Creating database engine.
+2026-06-26 00:26:49,011 - DEBUG - fraud_app - Initializing the PostgreSQL fraud transaction table.
+2026-06-26 00:26:49,126 - INFO - fraud_app - Database table ensured: bank_transactions
+2026-06-26 00:26:49,127 - INFO - fraud_app - Preparing raw dataset for immediate PostgreSQL persistence.
+2026-06-26 00:26:49,128 - DEBUG - fraud_app - Renaming raw dataset columns to match PostgreSQL schema.
+2026-06-26 00:26:49,131 - WARNING - fraud_app - Uploaded dataset is missing expected columns: ['fraud_result']
+2026-06-26 00:26:49,146 - INFO - fraud_app - Prepared raw dataset with 10 records after deduplication.
+2026-06-26 00:26:49,153 - DEBUG - fraud_app - Fetched 10 existing transaction keys.
+2026-06-26 00:26:49,157 - INFO - fraud_app - No new raw rows to insert; all transaction_id values already exist in DB.
+2026-06-26 00:26:49,166 - INFO - fraud_app - Creating a dedicated feature engineering copy for prediction.
+2026-06-26 00:26:49,176 - DEBUG - fraud_app - Mapping frequency for merchant_name with 10 unique values.
+2026-06-26 00:26:49,179 - DEBUG - fraud_app - Mapping frequency for customer_job with 10 unique values.
+2026-06-26 00:26:49,181 - DEBUG - fraud_app - Mapping frequency for customer_city with 10 unique values.
+2026-06-26 00:26:49,186 - DEBUG - fraud_app - Mapped transaction_category frequency.
+2026-06-26 00:26:49,191 - INFO - fraud_app - Loading pre-trained model from xgboost_model.pkl.
+2026-06-26 00:26:51,449 - INFO - fraud_app - Model loaded successfully.
+2026-06-26 00:26:51,449 - DEBUG - fraud_app - Calculating fraud probability values.
+2026-06-26 00:26:51,458 - INFO - fraud_app - Predicted 0 fraud records out of 10.
+2026-06-26 00:26:51,465 - DEBUG - fraud_app - Updating fraud result values in the database.
+2026-06-26 00:26:51,481 - INFO - fraud_app - Bulk-updated fraud_result for 10 records.
+2026-06-26 00:26:51,535 - INFO - fraud_app - Processing complete: total=10, fraud=0, legit=10.
+2026-06-26 00:35:55,334 - INFO - fraud_app - Uploaded dataset contains 30 rows and 8 columns.
+2026-06-26 00:35:55,334 - DEBUG - fraud_app - Creating database engine.
+2026-06-26 00:35:55,336 - DEBUG - fraud_app - Initializing the PostgreSQL fraud transaction table.
+2026-06-26 00:35:55,425 - INFO - fraud_app - Database table ensured: bank_transactions
+2026-06-26 00:35:55,426 - INFO - fraud_app - Preparing raw dataset for immediate PostgreSQL persistence.
+2026-06-26 00:35:55,426 - DEBUG - fraud_app - Renaming raw dataset columns to match PostgreSQL schema.
+2026-06-26 00:35:55,429 - WARNING - fraud_app - Uploaded dataset is missing expected columns: ['fraud_result']
+2026-06-26 00:35:55,436 - INFO - fraud_app - Prepared raw dataset with 30 records after deduplication.
+2026-06-26 00:35:55,443 - DEBUG - fraud_app - Fetched 10 existing transaction keys.
+2026-06-26 00:35:55,493 - INFO - fraud_app - Immediately inserted 30 new raw rows to the DB.
+2026-06-26 00:35:55,502 - INFO - fraud_app - Creating a dedicated feature engineering copy for prediction.
+2026-06-26 00:35:55,510 - DEBUG - fraud_app - Mapping frequency for merchant_name with 30 unique values.
+2026-06-26 00:35:55,512 - DEBUG - fraud_app - Mapping frequency for customer_job with 29 unique values.
+2026-06-26 00:35:55,514 - DEBUG - fraud_app - Mapping frequency for customer_city with 28 unique values.
+2026-06-26 00:35:55,517 - DEBUG - fraud_app - Mapped transaction_category frequency.
+2026-06-26 00:35:55,520 - INFO - fraud_app - Loading pre-trained model from xgboost_model.pkl.
+2026-06-26 00:35:55,543 - INFO - fraud_app - Model loaded successfully.
+2026-06-26 00:35:55,544 - DEBUG - fraud_app - Calculating fraud probability values.
+2026-06-26 00:35:55,550 - INFO - fraud_app - Predicted 1 fraud records out of 30.
+2026-06-26 00:35:55,555 - DEBUG - fraud_app - Updating fraud result values in the database.
+2026-06-26 00:35:55,567 - INFO - fraud_app - Bulk-updated fraud_result for 30 records.
+2026-06-26 00:35:55,585 - INFO - fraud_app - Dispatching alert email to oflamoha2005@gmail.com.
+2026-06-26 00:35:55,602 - DEBUG - fraud_app - Connecting to local SMTP server at localhost:25.
+2026-06-26 00:35:59,674 - ERROR - fraud_app - Failed to send fraud alert email: [WinError 10061] No connection could be made because the target machine actively refused it
+Traceback (most recent call last):
+  File "C:\Users\DELL\FRAUDE_DETECTION_PROJECT\app.py", line 371, in send_alert_email
+    with smtplib.SMTP(SMTP_SERVER, SMTP_PORT, timeout=20) as smtp:
+         ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 264, in __init__
+    (code, msg) = self.connect(host, port)
+                  ~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 350, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 321, in _get_socket
+    return socket.create_connection((host, port), timeout,
+           ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+                                    self.source_address)
+                                    ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python313\Lib\socket.py", line 864, in create_connection
+    raise exceptions[0]
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python313\Lib\socket.py", line 849, in create_connection
+    sock.connect(sa)
+    ~~~~~~~~~~~~^^^^
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+2026-06-26 00:35:59,843 - INFO - fraud_app - Processing complete: total=30, fraud=1, legit=29.
+2026-06-26 11:09:30,674 - INFO - fraud_app - Uploaded dataset contains 10 rows and 8 columns.
+2026-06-26 11:09:30,675 - DEBUG - fraud_app - Creating database engine.
+2026-06-26 11:09:30,818 - DEBUG - fraud_app - Initializing the PostgreSQL fraud transaction table.
+2026-06-26 11:09:30,983 - INFO - fraud_app - Database table ensured: bank_transactions
+2026-06-26 11:09:30,984 - INFO - fraud_app - Preparing raw dataset for immediate PostgreSQL persistence.
+2026-06-26 11:09:30,985 - DEBUG - fraud_app - Renaming raw dataset columns to match PostgreSQL schema.
+2026-06-26 11:09:30,990 - WARNING - fraud_app - Uploaded dataset is missing expected columns: ['fraud_result']
+2026-06-26 11:09:31,012 - INFO - fraud_app - Prepared raw dataset with 10 records after deduplication.
+2026-06-26 11:09:31,021 - DEBUG - fraud_app - Fetched 40 existing transaction keys.
+2026-06-26 11:09:31,033 - INFO - fraud_app - No new raw rows to insert; all transaction_id values already exist in DB.
+2026-06-26 11:09:31,043 - INFO - fraud_app - Creating a dedicated feature engineering copy for prediction.
+2026-06-26 11:09:31,053 - DEBUG - fraud_app - Mapping frequency for merchant_name with 10 unique values.
+2026-06-26 11:09:31,055 - DEBUG - fraud_app - Mapping frequency for customer_job with 10 unique values.
+2026-06-26 11:09:31,057 - DEBUG - fraud_app - Mapping frequency for customer_city with 10 unique values.
+2026-06-26 11:09:31,061 - DEBUG - fraud_app - Mapped transaction_category frequency.
+2026-06-26 11:09:31,065 - INFO - fraud_app - Loading pre-trained model from xgboost_model.pkl.
+2026-06-26 11:09:34,360 - INFO - fraud_app - Model loaded successfully.
+2026-06-26 11:09:34,361 - DEBUG - fraud_app - Calculating fraud probability values.
+2026-06-26 11:09:34,383 - INFO - fraud_app - Predicted 0 fraud records out of 10.
+2026-06-26 11:09:34,389 - DEBUG - fraud_app - Updating fraud result values in the database.
+2026-06-26 11:09:34,407 - INFO - fraud_app - Bulk-updated fraud_result for 10 records.
+2026-06-26 11:09:34,431 - INFO - fraud_app - Processing complete: total=10, fraud=0, legit=10.
+2026-06-26 11:09:42,281 - INFO - fraud_app - Uploaded dataset contains 30 rows and 8 columns.
+2026-06-26 11:09:42,282 - DEBUG - fraud_app - Creating database engine.
+2026-06-26 11:09:42,283 - DEBUG - fraud_app - Initializing the PostgreSQL fraud transaction table.
+2026-06-26 11:09:42,360 - INFO - fraud_app - Database table ensured: bank_transactions
+2026-06-26 11:09:42,361 - INFO - fraud_app - Preparing raw dataset for immediate PostgreSQL persistence.
+2026-06-26 11:09:42,362 - DEBUG - fraud_app - Renaming raw dataset columns to match PostgreSQL schema.
+2026-06-26 11:09:42,363 - WARNING - fraud_app - Uploaded dataset is missing expected columns: ['fraud_result']
+2026-06-26 11:09:42,371 - INFO - fraud_app - Prepared raw dataset with 30 records after deduplication.
+2026-06-26 11:09:42,376 - DEBUG - fraud_app - Fetched 40 existing transaction keys.
+2026-06-26 11:09:42,380 - INFO - fraud_app - No new raw rows to insert; all transaction_id values already exist in DB.
+2026-06-26 11:09:42,387 - INFO - fraud_app - Creating a dedicated feature engineering copy for prediction.
+2026-06-26 11:09:42,394 - DEBUG - fraud_app - Mapping frequency for merchant_name with 30 unique values.
+2026-06-26 11:09:42,397 - DEBUG - fraud_app - Mapping frequency for customer_job with 29 unique values.
+2026-06-26 11:09:42,399 - DEBUG - fraud_app - Mapping frequency for customer_city with 28 unique values.
+2026-06-26 11:09:42,402 - DEBUG - fraud_app - Mapped transaction_category frequency.
+2026-06-26 11:09:42,406 - INFO - fraud_app - Loading pre-trained model from xgboost_model.pkl.
+2026-06-26 11:09:42,424 - INFO - fraud_app - Model loaded successfully.
+2026-06-26 11:09:42,425 - DEBUG - fraud_app - Calculating fraud probability values.
+2026-06-26 11:09:42,431 - INFO - fraud_app - Predicted 1 fraud records out of 30.
+2026-06-26 11:09:42,436 - DEBUG - fraud_app - Updating fraud result values in the database.
+2026-06-26 11:09:42,450 - INFO - fraud_app - Bulk-updated fraud_result for 30 records.
+2026-06-26 11:09:42,467 - INFO - fraud_app - Dispatching alert email to oflamoha2005@gmail.com.
+2026-06-26 11:09:42,485 - DEBUG - fraud_app - Connecting to SMTP with credentials.
+2026-06-26 11:09:46,188 - INFO - fraud_app - Alert email successfully sent.
+2026-06-26 11:09:46,280 - INFO - fraud_app - Processing complete: total=30, fraud=1, legit=29.
+2026-06-26 11:18:24,683 - INFO - fraud_app - Uploaded dataset contains 30 rows and 8 columns.
+2026-06-26 11:18:24,683 - DEBUG - fraud_app - Creating database engine.
+2026-06-26 11:18:24,999 - DEBUG - fraud_app - Initializing the PostgreSQL fraud transaction table.
+2026-06-26 11:18:25,076 - INFO - fraud_app - Database table ensured: bank_transactions
+2026-06-26 11:18:25,077 - INFO - fraud_app - Preparing raw dataset for immediate PostgreSQL persistence.
+2026-06-26 11:18:25,078 - DEBUG - fraud_app - Renaming raw dataset columns to match PostgreSQL schema.
+2026-06-26 11:18:25,079 - WARNING - fraud_app - Uploaded dataset is missing expected columns: ['fraud_result']
+2026-06-26 11:18:25,090 - INFO - fraud_app - Prepared raw dataset with 30 records after deduplication.
+2026-06-26 11:18:25,095 - DEBUG - fraud_app - Fetched 0 existing transaction keys.
+2026-06-26 11:18:25,158 - INFO - fraud_app - Immediately inserted 30 new raw rows to the DB.
+2026-06-26 11:18:25,166 - INFO - fraud_app - Creating a dedicated feature engineering copy for prediction.
+2026-06-26 11:18:25,173 - DEBUG - fraud_app - Mapping frequency for merchant_name with 30 unique values.
+2026-06-26 11:18:25,175 - DEBUG - fraud_app - Mapping frequency for customer_job with 29 unique values.
+2026-06-26 11:18:25,177 - DEBUG - fraud_app - Mapping frequency for customer_city with 28 unique values.
+2026-06-26 11:18:25,180 - DEBUG - fraud_app - Mapped transaction_category frequency.
+2026-06-26 11:18:25,182 - INFO - fraud_app - Loading pre-trained model from xgboost_model.pkl.
+2026-06-26 11:18:36,561 - INFO - fraud_app - Model loaded successfully.
+2026-06-26 11:18:36,561 - DEBUG - fraud_app - Calculating fraud probability values.
+2026-06-26 11:18:36,569 - INFO - fraud_app - Predicted 1 fraud records out of 30.
+2026-06-26 11:18:36,574 - DEBUG - fraud_app - Updating fraud result values in the database.
+2026-06-26 11:18:36,588 - INFO - fraud_app - Bulk-updated fraud_result for 30 records.
+2026-06-26 11:18:36,611 - INFO - fraud_app - Dispatching alert email to oflamoha2005@gmail.com.
+2026-06-26 11:18:36,633 - DEBUG - fraud_app - Connecting to SMTP with credentials.
+2026-06-26 11:18:37,855 - ERROR - fraud_app - Failed to send fraud alert email: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials a640c23a62f3a-c11fbec3514sm311488366b.57 - gsmtp')
+Traceback (most recent call last):
+  File "C:\Users\DELL\FRAUDE_DETECTION_PROJECT\app.py", line 367, in send_alert_email
+    smtp.login(SMTP_USERNAME, SMTP_PASSWORD)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 764, in login
+    raise last_exception
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 753, in login
+    (code, resp) = self.auth(
+                   ~~~~~~~~~^
+        authmethod, getattr(self, method_name),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        initial_response_ok=initial_response_ok)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 671, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials a640c23a62f3a-c11fbec3514sm311488366b.57 - gsmtp')
+2026-06-26 11:18:37,962 - INFO - fraud_app - Processing complete: total=30, fraud=1, legit=29.
+2026-06-26 11:25:03,609 - INFO - fraud_app - Uploaded dataset contains 30 rows and 8 columns.
+2026-06-26 11:25:03,610 - DEBUG - fraud_app - Creating database engine.
+2026-06-26 11:25:03,720 - DEBUG - fraud_app - Initializing the PostgreSQL fraud transaction table.
+2026-06-26 11:25:03,803 - INFO - fraud_app - Database table ensured: bank_transactions
+2026-06-26 11:25:03,803 - INFO - fraud_app - Preparing raw dataset for immediate PostgreSQL persistence.
+2026-06-26 11:25:03,804 - DEBUG - fraud_app - Renaming raw dataset columns to match PostgreSQL schema.
+2026-06-26 11:25:03,806 - WARNING - fraud_app - Uploaded dataset is missing expected columns: ['fraud_result']
+2026-06-26 11:25:03,818 - INFO - fraud_app - Prepared raw dataset with 30 records after deduplication.
+2026-06-26 11:25:03,824 - DEBUG - fraud_app - Fetched 30 existing transaction keys.
+2026-06-26 11:25:03,828 - INFO - fraud_app - No new raw rows to insert; all transaction_id values already exist in DB.
+2026-06-26 11:25:03,836 - INFO - fraud_app - Creating a dedicated feature engineering copy for prediction.
+2026-06-26 11:25:03,844 - DEBUG - fraud_app - Mapping frequency for merchant_name with 30 unique values.
+2026-06-26 11:25:03,846 - DEBUG - fraud_app - Mapping frequency for customer_job with 29 unique values.
+2026-06-26 11:25:03,848 - DEBUG - fraud_app - Mapping frequency for customer_city with 28 unique values.
+2026-06-26 11:25:03,851 - DEBUG - fraud_app - Mapped transaction_category frequency.
+2026-06-26 11:25:03,854 - INFO - fraud_app - Loading pre-trained model from xgboost_model.pkl.
+2026-06-26 11:25:06,296 - INFO - fraud_app - Model loaded successfully.
+2026-06-26 11:25:06,297 - DEBUG - fraud_app - Calculating fraud probability values.
+2026-06-26 11:25:06,304 - INFO - fraud_app - Predicted 1 fraud records out of 30.
+2026-06-26 11:25:06,309 - DEBUG - fraud_app - Updating fraud result values in the database.
+2026-06-26 11:25:06,323 - INFO - fraud_app - Bulk-updated fraud_result for 30 records.
+2026-06-26 11:25:06,346 - INFO - fraud_app - Dispatching alert email to oflamoha2005@gmail.com.
+2026-06-26 11:25:06,369 - DEBUG - fraud_app - Connecting to SMTP with credentials.
+2026-06-26 11:25:07,750 - ERROR - fraud_app - Failed to send fraud alert email: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 4fb4d7f45d1cf-6980bbe4017sm1220334a12.1 - gsmtp')
+Traceback (most recent call last):
+  File "C:\Users\DELL\FRAUDE_DETECTION_PROJECT\app.py", line 373, in send_alert_email
+    smtp.login(SMTP_USERNAME, SMTP_PASSWORD)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 764, in login
+    raise last_exception
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 753, in login
+    (code, resp) = self.auth(
+                   ~~~~~~~~~^
+        authmethod, getattr(self, method_name),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        initial_response_ok=initial_response_ok)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 671, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 4fb4d7f45d1cf-6980bbe4017sm1220334a12.1 - gsmtp')
+2026-06-26 11:25:07,866 - INFO - fraud_app - Processing complete: total=30, fraud=1, legit=29.
+2026-06-26 11:34:04,969 - INFO - fraud_app - Uploaded dataset contains 30 rows and 8 columns.
+2026-06-26 11:34:04,970 - DEBUG - fraud_app - Creating database engine.
+2026-06-26 11:34:05,077 - DEBUG - fraud_app - Initializing the PostgreSQL fraud transaction table.
+2026-06-26 11:34:05,158 - INFO - fraud_app - Database table ensured: bank_transactions
+2026-06-26 11:34:05,158 - INFO - fraud_app - Preparing raw dataset for immediate PostgreSQL persistence.
+2026-06-26 11:34:05,159 - DEBUG - fraud_app - Renaming raw dataset columns to match PostgreSQL schema.
+2026-06-26 11:34:05,161 - WARNING - fraud_app - Uploaded dataset is missing expected columns: ['fraud_result']
+2026-06-26 11:34:05,171 - INFO - fraud_app - Prepared raw dataset with 30 records after deduplication.
+2026-06-26 11:34:05,176 - DEBUG - fraud_app - Fetched 30 existing transaction keys.
+2026-06-26 11:34:05,181 - INFO - fraud_app - No new raw rows to insert; all transaction_id values already exist in DB.
+2026-06-26 11:34:05,189 - INFO - fraud_app - Creating a dedicated feature engineering copy for prediction.
+2026-06-26 11:34:05,195 - DEBUG - fraud_app - Mapping frequency for merchant_name with 30 unique values.
+2026-06-26 11:34:05,197 - DEBUG - fraud_app - Mapping frequency for customer_job with 29 unique values.
+2026-06-26 11:34:05,199 - DEBUG - fraud_app - Mapping frequency for customer_city with 28 unique values.
+2026-06-26 11:34:05,201 - DEBUG - fraud_app - Mapped transaction_category frequency.
+2026-06-26 11:34:05,204 - INFO - fraud_app - Loading pre-trained model from xgboost_model.pkl.
+2026-06-26 11:34:07,572 - INFO - fraud_app - Model loaded successfully.
+2026-06-26 11:34:07,572 - DEBUG - fraud_app - Calculating fraud probability values.
+2026-06-26 11:34:07,583 - INFO - fraud_app - Predicted 1 fraud records out of 30.
+2026-06-26 11:34:07,588 - DEBUG - fraud_app - Updating fraud result values in the database.
+2026-06-26 11:34:07,632 - INFO - fraud_app - Bulk-updated fraud_result for 30 records.
+2026-06-26 11:34:07,655 - INFO - fraud_app - Dispatching alert email to oflamoha1@gmail.com.
+2026-06-26 11:34:07,676 - DEBUG - fraud_app - Connecting to SMTP with credentials.
+2026-06-26 11:34:09,005 - ERROR - fraud_app - Failed to send fraud alert email: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 4fb4d7f45d1cf-697f4bc6aeasm2675373a12.24 - gsmtp')
+Traceback (most recent call last):
+  File "C:\Users\DELL\FRAUDE_DETECTION_PROJECT\app.py", line 373, in send_alert_email
+    smtp.login(SMTP_USERNAME, SMTP_PASSWORD)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 764, in login
+    raise last_exception
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 753, in login
+    (code, resp) = self.auth(
+                   ~~~~~~~~~^
+        authmethod, getattr(self, method_name),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        initial_response_ok=initial_response_ok)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 671, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 4fb4d7f45d1cf-697f4bc6aeasm2675373a12.24 - gsmtp')
+2026-06-26 11:34:09,087 - INFO - fraud_app - Processing complete: total=30, fraud=1, legit=29.
+2026-06-26 11:44:57,501 - INFO - fraud_app - Uploaded dataset contains 30 rows and 8 columns.
+2026-06-26 11:44:57,501 - DEBUG - fraud_app - Creating database engine.
+2026-06-26 11:44:57,593 - DEBUG - fraud_app - Initializing the PostgreSQL fraud transaction table.
+2026-06-26 11:44:57,671 - INFO - fraud_app - Database table ensured: bank_transactions
+2026-06-26 11:44:57,672 - INFO - fraud_app - Preparing raw dataset for immediate PostgreSQL persistence.
+2026-06-26 11:44:57,672 - DEBUG - fraud_app - Renaming raw dataset columns to match PostgreSQL schema.
+2026-06-26 11:44:57,674 - WARNING - fraud_app - Uploaded dataset is missing expected columns: ['fraud_result']
+2026-06-26 11:44:57,687 - INFO - fraud_app - Prepared raw dataset with 30 records after deduplication.
+2026-06-26 11:44:57,692 - DEBUG - fraud_app - Fetched 30 existing transaction keys.
+2026-06-26 11:44:57,695 - INFO - fraud_app - No new raw rows to insert; all transaction_id values already exist in DB.
+2026-06-26 11:44:57,703 - INFO - fraud_app - Creating a dedicated feature engineering copy for prediction.
+2026-06-26 11:44:57,710 - DEBUG - fraud_app - Mapping frequency for merchant_name with 30 unique values.
+2026-06-26 11:44:57,712 - DEBUG - fraud_app - Mapping frequency for customer_job with 29 unique values.
+2026-06-26 11:44:57,714 - DEBUG - fraud_app - Mapping frequency for customer_city with 28 unique values.
+2026-06-26 11:44:57,717 - DEBUG - fraud_app - Mapped transaction_category frequency.
+2026-06-26 11:44:57,721 - INFO - fraud_app - Loading pre-trained model from xgboost_model.pkl.
+2026-06-26 11:44:59,670 - INFO - fraud_app - Model loaded successfully.
+2026-06-26 11:44:59,670 - DEBUG - fraud_app - Calculating fraud probability values.
+2026-06-26 11:44:59,677 - INFO - fraud_app - Predicted 1 fraud records out of 30.
+2026-06-26 11:44:59,682 - DEBUG - fraud_app - Updating fraud result values in the database.
+2026-06-26 11:44:59,716 - INFO - fraud_app - Bulk-updated fraud_result for 30 records.
+2026-06-26 11:44:59,736 - INFO - fraud_app - Dispatching alert email to oflamoha1@gmail.com.
+2026-06-26 11:44:59,757 - DEBUG - fraud_app - Connecting to SMTP with credentials.
+2026-06-26 11:45:01,006 - ERROR - fraud_app - Failed to send fraud alert email: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 4fb4d7f45d1cf-6980e8e8141sm930999a12.21 - gsmtp')
+Traceback (most recent call last):
+  File "C:\Users\DELL\FRAUDE_DETECTION_PROJECT\app.py", line 373, in send_alert_email
+    smtp.login(SMTP_USERNAME, SMTP_PASSWORD)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 764, in login
+    raise last_exception
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 753, in login
+    (code, resp) = self.auth(
+                   ~~~~~~~~~^
+        authmethod, getattr(self, method_name),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        initial_response_ok=initial_response_ok)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 671, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 4fb4d7f45d1cf-6980e8e8141sm930999a12.21 - gsmtp')
+2026-06-26 11:45:01,094 - INFO - fraud_app - Processing complete: total=30, fraud=1, legit=29.
+2026-06-26 12:17:48,260 - INFO - fraud_app - Uploaded dataset contains 30 rows and 8 columns.
+2026-06-26 12:17:48,261 - DEBUG - fraud_app - Creating database engine.
+2026-06-26 12:17:48,371 - DEBUG - fraud_app - Initializing the PostgreSQL fraud transaction table.
+2026-06-26 12:17:48,448 - INFO - fraud_app - Database table ensured: bank_transactions
+2026-06-26 12:17:48,449 - INFO - fraud_app - Preparing raw dataset for immediate PostgreSQL persistence.
+2026-06-26 12:17:48,450 - DEBUG - fraud_app - Renaming raw dataset columns to match PostgreSQL schema.
+2026-06-26 12:17:48,451 - WARNING - fraud_app - Uploaded dataset is missing expected columns: ['fraud_result']
+2026-06-26 12:17:48,461 - INFO - fraud_app - Prepared raw dataset with 30 records after deduplication.
+2026-06-26 12:17:48,466 - DEBUG - fraud_app - Fetched 30 existing transaction keys.
+2026-06-26 12:17:48,469 - INFO - fraud_app - No new raw rows to insert; all transaction_id values already exist in DB.
+2026-06-26 12:17:48,475 - INFO - fraud_app - Creating a dedicated feature engineering copy for prediction.
+2026-06-26 12:17:48,482 - DEBUG - fraud_app - Mapping frequency for merchant_name with 30 unique values.
+2026-06-26 12:17:48,484 - DEBUG - fraud_app - Mapping frequency for customer_job with 29 unique values.
+2026-06-26 12:17:48,485 - DEBUG - fraud_app - Mapping frequency for customer_city with 28 unique values.
+2026-06-26 12:17:48,488 - DEBUG - fraud_app - Mapped transaction_category frequency.
+2026-06-26 12:17:48,491 - INFO - fraud_app - Loading pre-trained model from xgboost_model.pkl.
+2026-06-26 12:17:50,882 - INFO - fraud_app - Model loaded successfully.
+2026-06-26 12:17:50,883 - DEBUG - fraud_app - Calculating fraud probability values.
+2026-06-26 12:17:50,890 - INFO - fraud_app - Predicted 1 fraud records out of 30.
+2026-06-26 12:17:50,895 - DEBUG - fraud_app - Updating fraud result values in the database.
+2026-06-26 12:17:50,946 - INFO - fraud_app - Bulk-updated fraud_result for 30 records.
+2026-06-26 12:17:50,966 - INFO - fraud_app - Dispatching alert email to oflamoha1@gmail.com.
+2026-06-26 12:17:50,988 - DEBUG - fraud_app - Connecting to SMTP with credentials.
+2026-06-26 12:17:52,340 - ERROR - fraud_app - Failed to send fraud alert email: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials a640c23a62f3a-c1226a58ce1sm66546266b.12 - gsmtp')
+Traceback (most recent call last):
+  File "C:\Users\DELL\FRAUDE_DETECTION_PROJECT\app.py", line 373, in send_alert_email
+    smtp.login(SMTP_USERNAME, SMTP_PASSWORD)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 764, in login
+    raise last_exception
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 753, in login
+    (code, resp) = self.auth(
+                   ~~~~~~~~~^
+        authmethod, getattr(self, method_name),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        initial_response_ok=initial_response_ok)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 671, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials a640c23a62f3a-c1226a58ce1sm66546266b.12 - gsmtp')
+2026-06-26 12:17:52,428 - INFO - fraud_app - Processing complete: total=30, fraud=1, legit=29.
+2026-06-26 12:21:10,214 - INFO - fraud_app - Uploaded dataset contains 30 rows and 8 columns.
+2026-06-26 12:21:10,215 - DEBUG - fraud_app - Creating database engine.
+2026-06-26 12:21:10,304 - DEBUG - fraud_app - Initializing the PostgreSQL fraud transaction table.
+2026-06-26 12:21:10,379 - INFO - fraud_app - Database table ensured: bank_transactions
+2026-06-26 12:21:10,380 - INFO - fraud_app - Preparing raw dataset for immediate PostgreSQL persistence.
+2026-06-26 12:21:10,381 - DEBUG - fraud_app - Renaming raw dataset columns to match PostgreSQL schema.
+2026-06-26 12:21:10,382 - WARNING - fraud_app - Uploaded dataset is missing expected columns: ['fraud_result']
+2026-06-26 12:21:10,391 - INFO - fraud_app - Prepared raw dataset with 30 records after deduplication.
+2026-06-26 12:21:10,397 - DEBUG - fraud_app - Fetched 30 existing transaction keys.
+2026-06-26 12:21:10,401 - INFO - fraud_app - No new raw rows to insert; all transaction_id values already exist in DB.
+2026-06-26 12:21:10,409 - INFO - fraud_app - Creating a dedicated feature engineering copy for prediction.
+2026-06-26 12:21:10,417 - DEBUG - fraud_app - Mapping frequency for merchant_name with 30 unique values.
+2026-06-26 12:21:10,419 - DEBUG - fraud_app - Mapping frequency for customer_job with 29 unique values.
+2026-06-26 12:21:10,421 - DEBUG - fraud_app - Mapping frequency for customer_city with 28 unique values.
+2026-06-26 12:21:10,424 - DEBUG - fraud_app - Mapped transaction_category frequency.
+2026-06-26 12:21:10,427 - INFO - fraud_app - Loading pre-trained model from xgboost_model.pkl.
+2026-06-26 12:21:12,396 - INFO - fraud_app - Model loaded successfully.
+2026-06-26 12:21:12,396 - DEBUG - fraud_app - Calculating fraud probability values.
+2026-06-26 12:21:12,403 - INFO - fraud_app - Predicted 1 fraud records out of 30.
+2026-06-26 12:21:12,407 - DEBUG - fraud_app - Updating fraud result values in the database.
+2026-06-26 12:21:12,421 - INFO - fraud_app - Bulk-updated fraud_result for 30 records.
+2026-06-26 12:21:12,441 - INFO - fraud_app - Dispatching alert email to oflamoha1@gmail.com.
+2026-06-26 12:21:12,442 - DEBUG - fraud_app - SMTP config: server=smtp.gmail.com port=587 username=oflamoha20005@gmail.com sender=oflamoha20005@gmail.com recipient=oflamoha1@gmail.com password_present=True
+2026-06-26 12:21:12,466 - DEBUG - fraud_app - Connecting to SMTP with credentials.
+2026-06-26 12:21:13,800 - ERROR - fraud_app - Failed to send fraud alert email: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 4fb4d7f45d1cf-697f47d5a35sm2635785a12.17 - gsmtp')
+Traceback (most recent call last):
+  File "C:\Users\DELL\FRAUDE_DETECTION_PROJECT\app.py", line 382, in send_alert_email
+    smtp.login(SMTP_USERNAME, SMTP_PASSWORD)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 764, in login
+    raise last_exception
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 753, in login
+    (code, resp) = self.auth(
+                   ~~~~~~~~~^
+        authmethod, getattr(self, method_name),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        initial_response_ok=initial_response_ok)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 671, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 4fb4d7f45d1cf-697f47d5a35sm2635785a12.17 - gsmtp')
+2026-06-26 12:21:13,883 - INFO - fraud_app - Processing complete: total=30, fraud=1, legit=29.
+2026-06-26 12:22:55,674 - INFO - fraud_app - Uploaded dataset contains 30 rows and 8 columns.
+2026-06-26 12:22:55,675 - DEBUG - fraud_app - Creating database engine.
+2026-06-26 12:22:55,769 - DEBUG - fraud_app - Initializing the PostgreSQL fraud transaction table.
+2026-06-26 12:22:55,845 - INFO - fraud_app - Database table ensured: bank_transactions
+2026-06-26 12:22:55,846 - INFO - fraud_app - Preparing raw dataset for immediate PostgreSQL persistence.
+2026-06-26 12:22:55,847 - DEBUG - fraud_app - Renaming raw dataset columns to match PostgreSQL schema.
+2026-06-26 12:22:55,849 - WARNING - fraud_app - Uploaded dataset is missing expected columns: ['fraud_result']
+2026-06-26 12:22:55,858 - INFO - fraud_app - Prepared raw dataset with 30 records after deduplication.
+2026-06-26 12:22:55,863 - DEBUG - fraud_app - Fetched 30 existing transaction keys.
+2026-06-26 12:22:55,867 - INFO - fraud_app - No new raw rows to insert; all transaction_id values already exist in DB.
+2026-06-26 12:22:55,875 - INFO - fraud_app - Creating a dedicated feature engineering copy for prediction.
+2026-06-26 12:22:55,881 - DEBUG - fraud_app - Mapping frequency for merchant_name with 30 unique values.
+2026-06-26 12:22:55,884 - DEBUG - fraud_app - Mapping frequency for customer_job with 29 unique values.
+2026-06-26 12:22:55,885 - DEBUG - fraud_app - Mapping frequency for customer_city with 28 unique values.
+2026-06-26 12:22:55,887 - DEBUG - fraud_app - Mapped transaction_category frequency.
+2026-06-26 12:22:55,890 - INFO - fraud_app - Loading pre-trained model from xgboost_model.pkl.
+2026-06-26 12:22:57,903 - INFO - fraud_app - Model loaded successfully.
+2026-06-26 12:22:57,903 - DEBUG - fraud_app - Calculating fraud probability values.
+2026-06-26 12:22:57,910 - INFO - fraud_app - Predicted 1 fraud records out of 30.
+2026-06-26 12:22:57,914 - DEBUG - fraud_app - Updating fraud result values in the database.
+2026-06-26 12:22:57,954 - INFO - fraud_app - Bulk-updated fraud_result for 30 records.
+2026-06-26 12:22:57,970 - INFO - fraud_app - Dispatching alert email to oflamoha1@gmail.com.
+2026-06-26 12:22:57,972 - DEBUG - fraud_app - SMTP config: server=smtp.gmail.com port=587 username=oflamoha20005@gmail.com sender=oflamoha20005@gmail.com recipient=oflamoha1@gmail.com password_present=True
+2026-06-26 12:22:57,990 - DEBUG - fraud_app - Connecting to SMTP with credentials.
+2026-06-26 12:22:59,385 - ERROR - fraud_app - Failed to send fraud alert email: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 4fb4d7f45d1cf-6980b2672e0sm1382514a12.22 - gsmtp')
+Traceback (most recent call last):
+  File "C:\Users\DELL\FRAUDE_DETECTION_PROJECT\app.py", line 382, in send_alert_email
+    smtp.login(SMTP_USERNAME, SMTP_PASSWORD)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 764, in login
+    raise last_exception
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 753, in login
+    (code, resp) = self.auth(
+                   ~~~~~~~~~^
+        authmethod, getattr(self, method_name),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        initial_response_ok=initial_response_ok)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 671, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 4fb4d7f45d1cf-6980b2672e0sm1382514a12.22 - gsmtp')
+2026-06-26 12:22:59,463 - INFO - fraud_app - Processing complete: total=30, fraud=1, legit=29.
+2026-06-26 12:24:16,029 - INFO - fraud_app - Uploaded dataset contains 30 rows and 8 columns.
+2026-06-26 12:24:16,030 - DEBUG - fraud_app - Creating database engine.
+2026-06-26 12:24:16,139 - DEBUG - fraud_app - Initializing the PostgreSQL fraud transaction table.
+2026-06-26 12:24:16,226 - INFO - fraud_app - Database table ensured: bank_transactions
+2026-06-26 12:24:16,227 - INFO - fraud_app - Preparing raw dataset for immediate PostgreSQL persistence.
+2026-06-26 12:24:16,228 - DEBUG - fraud_app - Renaming raw dataset columns to match PostgreSQL schema.
+2026-06-26 12:24:16,230 - WARNING - fraud_app - Uploaded dataset is missing expected columns: ['fraud_result']
+2026-06-26 12:24:16,239 - INFO - fraud_app - Prepared raw dataset with 30 records after deduplication.
+2026-06-26 12:24:16,244 - DEBUG - fraud_app - Fetched 30 existing transaction keys.
+2026-06-26 12:24:16,247 - INFO - fraud_app - No new raw rows to insert; all transaction_id values already exist in DB.
+2026-06-26 12:24:16,255 - INFO - fraud_app - Creating a dedicated feature engineering copy for prediction.
+2026-06-26 12:24:16,264 - DEBUG - fraud_app - Mapping frequency for merchant_name with 30 unique values.
+2026-06-26 12:24:16,267 - DEBUG - fraud_app - Mapping frequency for customer_job with 29 unique values.
+2026-06-26 12:24:16,269 - DEBUG - fraud_app - Mapping frequency for customer_city with 28 unique values.
+2026-06-26 12:24:16,272 - DEBUG - fraud_app - Mapped transaction_category frequency.
+2026-06-26 12:24:16,276 - INFO - fraud_app - Loading pre-trained model from xgboost_model.pkl.
+2026-06-26 12:24:18,258 - INFO - fraud_app - Model loaded successfully.
+2026-06-26 12:24:18,259 - DEBUG - fraud_app - Calculating fraud probability values.
+2026-06-26 12:24:18,266 - INFO - fraud_app - Predicted 1 fraud records out of 30.
+2026-06-26 12:24:18,271 - DEBUG - fraud_app - Updating fraud result values in the database.
+2026-06-26 12:24:18,287 - INFO - fraud_app - Bulk-updated fraud_result for 30 records.
+2026-06-26 12:24:18,310 - INFO - fraud_app - Dispatching alert email to oflamoha1@gmail.com.
+2026-06-26 12:24:18,311 - DEBUG - fraud_app - SMTP config: server=smtp.gmail.com port=587 username=oflamoha20005@gmail.com sender=oflamoha20005@gmail.com recipient=oflamoha1@gmail.com password_present=True
+2026-06-26 12:24:18,331 - DEBUG - fraud_app - Connecting to SMTP with credentials.
+2026-06-26 12:24:19,751 - ERROR - fraud_app - Failed to send fraud alert email: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 4fb4d7f45d1cf-697f3ac4629sm2736144a12.4 - gsmtp')
+Traceback (most recent call last):
+  File "C:\Users\DELL\FRAUDE_DETECTION_PROJECT\app.py", line 382, in send_alert_email
+    smtp.login(SMTP_USERNAME, SMTP_PASSWORD)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 764, in login
+    raise last_exception
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 753, in login
+    (code, resp) = self.auth(
+                   ~~~~~~~~~^
+        authmethod, getattr(self, method_name),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        initial_response_ok=initial_response_ok)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 671, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 4fb4d7f45d1cf-697f3ac4629sm2736144a12.4 - gsmtp')
+2026-06-26 12:24:19,843 - INFO - fraud_app - Processing complete: total=30, fraud=1, legit=29.
+2026-06-26 12:29:46,474 - INFO - fraud_app - Uploaded dataset contains 30 rows and 8 columns.
+2026-06-26 12:29:46,474 - DEBUG - fraud_app - Creating database engine.
+2026-06-26 12:29:46,597 - DEBUG - fraud_app - Initializing the PostgreSQL fraud transaction table.
+2026-06-26 12:29:46,692 - INFO - fraud_app - Database table ensured: bank_transactions
+2026-06-26 12:29:46,693 - INFO - fraud_app - Preparing raw dataset for immediate PostgreSQL persistence.
+2026-06-26 12:29:46,694 - DEBUG - fraud_app - Renaming raw dataset columns to match PostgreSQL schema.
+2026-06-26 12:29:46,696 - WARNING - fraud_app - Uploaded dataset is missing expected columns: ['fraud_result']
+2026-06-26 12:29:46,706 - INFO - fraud_app - Prepared raw dataset with 30 records after deduplication.
+2026-06-26 12:29:46,713 - DEBUG - fraud_app - Fetched 30 existing transaction keys.
+2026-06-26 12:29:46,718 - INFO - fraud_app - No new raw rows to insert; all transaction_id values already exist in DB.
+2026-06-26 12:29:46,731 - INFO - fraud_app - Creating a dedicated feature engineering copy for prediction.
+2026-06-26 12:29:46,739 - DEBUG - fraud_app - Mapping frequency for merchant_name with 30 unique values.
+2026-06-26 12:29:46,741 - DEBUG - fraud_app - Mapping frequency for customer_job with 29 unique values.
+2026-06-26 12:29:46,744 - DEBUG - fraud_app - Mapping frequency for customer_city with 28 unique values.
+2026-06-26 12:29:46,747 - DEBUG - fraud_app - Mapped transaction_category frequency.
+2026-06-26 12:29:46,751 - INFO - fraud_app - Loading pre-trained model from xgboost_model.pkl.
+2026-06-26 12:29:49,268 - INFO - fraud_app - Model loaded successfully.
+2026-06-26 12:29:49,268 - DEBUG - fraud_app - Calculating fraud probability values.
+2026-06-26 12:29:49,276 - INFO - fraud_app - Predicted 1 fraud records out of 30.
+2026-06-26 12:29:49,281 - DEBUG - fraud_app - Updating fraud result values in the database.
+2026-06-26 12:29:49,319 - INFO - fraud_app - Bulk-updated fraud_result for 30 records.
+2026-06-26 12:29:49,342 - INFO - fraud_app - Dispatching alert email to oflamoha1@gmail.com.
+2026-06-26 12:29:49,343 - DEBUG - fraud_app - SMTP config: server=smtp.gmail.com port=587 username=oflamoha20005@gmail.com sender=oflamoha20005@gmail.com recipient=oflamoha1@gmail.com password_present=True
+2026-06-26 12:29:49,362 - DEBUG - fraud_app - Connecting to SMTP with credentials.
+2026-06-26 12:29:50,879 - ERROR - fraud_app - Failed to send fraud alert email: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 4fb4d7f45d1cf-697f3ae59f1sm2638556a12.8 - gsmtp')
+Traceback (most recent call last):
+  File "C:\Users\DELL\FRAUDE_DETECTION_PROJECT\app.py", line 398, in send_alert_email
+    smtp.login(SMTP_USERNAME, SMTP_PASSWORD)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 764, in login
+    raise last_exception
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 753, in login
+    (code, resp) = self.auth(
+                   ~~~~~~~~~^
+        authmethod, getattr(self, method_name),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        initial_response_ok=initial_response_ok)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 671, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 4fb4d7f45d1cf-697f3ae59f1sm2638556a12.8 - gsmtp')
+2026-06-26 12:29:50,971 - INFO - fraud_app - Processing complete: total=30, fraud=1, legit=29.
+2026-06-26 12:34:35,449 - INFO - fraud_app - Uploaded dataset contains 30 rows and 8 columns.
+2026-06-26 12:34:35,449 - DEBUG - fraud_app - Creating database engine.
+2026-06-26 12:34:35,576 - DEBUG - fraud_app - Initializing the PostgreSQL fraud transaction table.
+2026-06-26 12:34:35,678 - INFO - fraud_app - Database table ensured: bank_transactions
+2026-06-26 12:34:35,679 - INFO - fraud_app - Preparing raw dataset for immediate PostgreSQL persistence.
+2026-06-26 12:34:35,680 - DEBUG - fraud_app - Renaming raw dataset columns to match PostgreSQL schema.
+2026-06-26 12:34:35,682 - WARNING - fraud_app - Uploaded dataset is missing expected columns: ['fraud_result']
+2026-06-26 12:34:35,695 - INFO - fraud_app - Prepared raw dataset with 30 records after deduplication.
+2026-06-26 12:34:35,702 - DEBUG - fraud_app - Fetched 30 existing transaction keys.
+2026-06-26 12:34:35,708 - INFO - fraud_app - No new raw rows to insert; all transaction_id values already exist in DB.
+2026-06-26 12:34:35,718 - INFO - fraud_app - Creating a dedicated feature engineering copy for prediction.
+2026-06-26 12:34:35,727 - DEBUG - fraud_app - Mapping frequency for merchant_name with 30 unique values.
+2026-06-26 12:34:35,730 - DEBUG - fraud_app - Mapping frequency for customer_job with 29 unique values.
+2026-06-26 12:34:35,731 - DEBUG - fraud_app - Mapping frequency for customer_city with 28 unique values.
+2026-06-26 12:34:35,733 - DEBUG - fraud_app - Mapped transaction_category frequency.
+2026-06-26 12:34:35,736 - INFO - fraud_app - Loading pre-trained model from xgboost_model.pkl.
+2026-06-26 12:34:38,103 - INFO - fraud_app - Model loaded successfully.
+2026-06-26 12:34:38,104 - DEBUG - fraud_app - Calculating fraud probability values.
+2026-06-26 12:34:38,112 - INFO - fraud_app - Predicted 1 fraud records out of 30.
+2026-06-26 12:34:38,117 - DEBUG - fraud_app - Updating fraud result values in the database.
+2026-06-26 12:34:38,154 - INFO - fraud_app - Bulk-updated fraud_result for 30 records.
+2026-06-26 12:34:38,177 - INFO - fraud_app - Dispatching alert email to oflamoha1@gmail.com.
+2026-06-26 12:34:38,178 - DEBUG - fraud_app - SMTP config: server=smtp.gmail.com port=587 username=oflamoha20005@gmail.com sender=oflamoha20005@gmail.com recipient=oflamoha1@gmail.com password_present=True
+2026-06-26 12:34:38,200 - DEBUG - fraud_app - Connecting to SMTP with credentials.
+2026-06-26 12:34:40,687 - ERROR - fraud_app - Failed to send fraud alert email: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 4fb4d7f45d1cf-697f3ac4774sm2778200a12.3 - gsmtp')
+Traceback (most recent call last):
+  File "C:\Users\DELL\FRAUDE_DETECTION_PROJECT\app.py", line 398, in send_alert_email
+    smtp.login(SMTP_USERNAME, SMTP_PASSWORD)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 764, in login
+    raise last_exception
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 753, in login
+    (code, resp) = self.auth(
+                   ~~~~~~~~~^
+        authmethod, getattr(self, method_name),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        initial_response_ok=initial_response_ok)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 671, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 4fb4d7f45d1cf-697f3ac4774sm2778200a12.3 - gsmtp')
+2026-06-26 12:34:40,774 - INFO - fraud_app - Processing complete: total=30, fraud=1, legit=29.
+2026-06-26 12:40:06,452 - INFO - fraud_app - Uploaded dataset contains 30 rows and 8 columns.
+2026-06-26 12:40:06,453 - DEBUG - fraud_app - Creating database engine.
+2026-06-26 12:40:06,571 - DEBUG - fraud_app - Initializing the PostgreSQL fraud transaction table.
+2026-06-26 12:40:06,666 - INFO - fraud_app - Database table ensured: bank_transactions
+2026-06-26 12:40:06,667 - INFO - fraud_app - Preparing raw dataset for immediate PostgreSQL persistence.
+2026-06-26 12:40:06,667 - DEBUG - fraud_app - Renaming raw dataset columns to match PostgreSQL schema.
+2026-06-26 12:40:06,670 - WARNING - fraud_app - Uploaded dataset is missing expected columns: ['fraud_result']
+2026-06-26 12:40:06,680 - INFO - fraud_app - Prepared raw dataset with 30 records after deduplication.
+2026-06-26 12:40:06,687 - DEBUG - fraud_app - Fetched 30 existing transaction keys.
+2026-06-26 12:40:06,692 - INFO - fraud_app - No new raw rows to insert; all transaction_id values already exist in DB.
+2026-06-26 12:40:06,702 - INFO - fraud_app - Creating a dedicated feature engineering copy for prediction.
+2026-06-26 12:40:06,709 - DEBUG - fraud_app - Mapping frequency for merchant_name with 30 unique values.
+2026-06-26 12:40:06,711 - DEBUG - fraud_app - Mapping frequency for customer_job with 29 unique values.
+2026-06-26 12:40:06,713 - DEBUG - fraud_app - Mapping frequency for customer_city with 28 unique values.
+2026-06-26 12:40:06,715 - DEBUG - fraud_app - Mapped transaction_category frequency.
+2026-06-26 12:40:06,719 - INFO - fraud_app - Loading pre-trained model from xgboost_model.pkl.
+2026-06-26 12:40:09,233 - INFO - fraud_app - Model loaded successfully.
+2026-06-26 12:40:09,233 - DEBUG - fraud_app - Calculating fraud probability values.
+2026-06-26 12:40:09,241 - INFO - fraud_app - Predicted 1 fraud records out of 30.
+2026-06-26 12:40:09,246 - DEBUG - fraud_app - Updating fraud result values in the database.
+2026-06-26 12:40:09,286 - INFO - fraud_app - Bulk-updated fraud_result for 30 records.
+2026-06-26 12:40:09,307 - INFO - fraud_app - Dispatching alert email to oflamoha1@gmail.com.
+2026-06-26 12:40:09,309 - DEBUG - fraud_app - SMTP config: server=smtp.gmail.com port=587 username=oflamoha2005@gmail.com sender=oflamoha2005@gmail.com recipient=oflamoha1@gmail.com password_present=True
+2026-06-26 12:40:09,330 - DEBUG - fraud_app - Connecting to SMTP with credentials.
+2026-06-26 12:40:20,547 - ERROR - fraud_app - Failed to send fraud alert email: [Errno 11001] getaddrinfo failed
+Traceback (most recent call last):
+  File "C:\Users\DELL\FRAUDE_DETECTION_PROJECT\app.py", line 396, in send_alert_email
+    with smtplib.SMTP(SMTP_SERVER, SMTP_PORT, timeout=20) as smtp:
+         ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 264, in __init__
+    (code, msg) = self.connect(host, port)
+                  ~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 350, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python313\Lib\smtplib.py", line 321, in _get_socket
+    return socket.create_connection((host, port), timeout,
+           ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+                                    self.source_address)
+                                    ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python313\Lib\socket.py", line 840, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+               ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python313\Lib\socket.py", line 977, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+2026-06-26 12:40:20,724 - INFO - fraud_app - Processing complete: total=30, fraud=1, legit=29.
+2026-06-26 12:44:20,552 - INFO - fraud_app - Uploaded dataset contains 30 rows and 8 columns.
+2026-06-26 12:44:20,553 - DEBUG - fraud_app - Creating database engine.
+2026-06-26 12:44:20,659 - DEBUG - fraud_app - Initializing the PostgreSQL fraud transaction table.
+2026-06-26 12:44:20,757 - INFO - fraud_app - Database table ensured: bank_transactions
+2026-06-26 12:44:20,758 - INFO - fraud_app - Preparing raw dataset for immediate PostgreSQL persistence.
+2026-06-26 12:44:20,759 - DEBUG - fraud_app - Renaming raw dataset columns to match PostgreSQL schema.
+2026-06-26 12:44:20,761 - WARNING - fraud_app - Uploaded dataset is missing expected columns: ['fraud_result']
+2026-06-26 12:44:20,772 - INFO - fraud_app - Prepared raw dataset with 30 records after deduplication.
+2026-06-26 12:44:20,779 - DEBUG - fraud_app - Fetched 30 existing transaction keys.
+2026-06-26 12:44:20,783 - INFO - fraud_app - No new raw rows to insert; all transaction_id values already exist in DB.
+2026-06-26 12:44:20,792 - INFO - fraud_app - Creating a dedicated feature engineering copy for prediction.
+2026-06-26 12:44:20,801 - DEBUG - fraud_app - Mapping frequency for merchant_name with 30 unique values.
+2026-06-26 12:44:20,804 - DEBUG - fraud_app - Mapping frequency for customer_job with 29 unique values.
+2026-06-26 12:44:20,805 - DEBUG - fraud_app - Mapping frequency for customer_city with 28 unique values.
+2026-06-26 12:44:20,807 - DEBUG - fraud_app - Mapped transaction_category frequency.
+2026-06-26 12:44:20,810 - INFO - fraud_app - Loading pre-trained model from xgboost_model.pkl.
+2026-06-26 12:44:23,055 - INFO - fraud_app - Model loaded successfully.
+2026-06-26 12:44:23,056 - DEBUG - fraud_app - Calculating fraud probability values.
+2026-06-26 12:44:23,065 - INFO - fraud_app - Predicted 1 fraud records out of 30.
+2026-06-26 12:44:23,070 - DEBUG - fraud_app - Updating fraud result values in the database.
+2026-06-26 12:44:23,109 - INFO - fraud_app - Bulk-updated fraud_result for 30 records.
+2026-06-26 12:44:23,132 - INFO - fraud_app - Dispatching alert email to oflamoha1@gmail.com.
+2026-06-26 12:44:23,138 - DEBUG - fraud_app - SMTP config: server=smtp.gmail.com port=587 username=oflamoha2005@gmail.com sender=oflamoha2005@gmail.com recipient=oflamoha1@gmail.com password_present=True
+2026-06-26 12:44:23,164 - DEBUG - fraud_app - Connecting to SMTP with credentials.
+2026-06-26 12:44:26,810 - INFO - fraud_app - Alert email successfully sent.
+2026-06-26 12:44:26,818 - INFO - fraud_app - Processing complete: total=30, fraud=1, legit=29.
